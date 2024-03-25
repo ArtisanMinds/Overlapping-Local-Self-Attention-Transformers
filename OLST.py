@@ -112,7 +112,7 @@ class Transformer(nn.Module):
         # output linear layer to project to the number of classes
         self.fc_out = nn.Linear(embed_size, num_classes)
         # linear layer to project input features to the embedding size
-        self.embedding = nn.Linear(input_size, embed_size)  # 3 is the number of input features
+        self.embedding = nn.Linear(input_size, embed_size)
 
     def forward(self, x, mask):
         # Embedding the input and applying dropout
