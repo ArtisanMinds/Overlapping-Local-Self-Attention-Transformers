@@ -1,6 +1,6 @@
 # Overlapping Local Self-Attention Transformers for Spatial Sequential Analysis in CPT Data
 
-This repository contains the code of the Overlapping Local Self-Attention Transformer, specifically designed to enhance spatial sequential analysis and reliability assessment in Cone Penetration Test (CPT) data. Our model leverages a novel approach to self-attention mechanisms, focusing on local sequence relationships, providing significant improvements over traditional global self-attention transformers in processing CPT-like data.
+This repository contains the code of the Overlapping Local Self-Attention Transformer, specifically designed to enhance spatial sequential analysis and reliability assessment in Cone Penetration Test (CPT) data. Our model leverages a novel approach to self-attention mechanisms, focusing on local sequence relationships, providing significant improvements over traditional global self-attention transformers in processing CPT-like data. Run.py wait until it is fully published before uploading
 
 ## Acknowledgements
 
