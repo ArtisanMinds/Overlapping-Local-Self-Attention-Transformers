@@ -115,12 +115,12 @@ class Transformer(nn.Module):
         self.embedding = nn.Linear(input_size, embed_size)
 
     def forward(self, x, mask):
-        # Embedding the input and applying dropout
-        x = self.embedding(x)
         # this is a simple way to add noise to the input data, you can use other methods or close it
         if self.training:  # add noise during training
-            noise = torch.randn_like(x) * 1e-2  # 1e-2 is the standard deviation
+            noise = torch.randn_like(x) * 1  # 1 is the standard deviation，you can change
             x = x + noise  # add noise to the input data
+        # Embedding the input and applying dropout
+        x = self.embedding(x)
         out = self.dropout(x)
         # Pass through each transformer block
         for layer in self.layers:
