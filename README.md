@@ -21,5 +21,5 @@ Details on accessing the dataset, please refer to the [Cone penetration test dat
 # Visualizing the Model Architecture
 To see a clear visualization of the model's architecture:
 
-Download the .pth file, which contains the model's weights and state.
-Upload this file to [Netron](https://netron.app/) to view the internal structure of the model.
+1. **Download the .pth file, which contains the model's weights and state.
+2. **Upload this file to [Netron](https://netron.app/) to view the internal structure of the model.
