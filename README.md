@@ -9,7 +9,7 @@ This repository hosts the Overlapping Local Self-Attention Transformer, crafted 
 ## Visualizing the Model Architecture
 To see a clear visualization of the model's architecture:
 
-1. **Download the .pth file**: This file contains the model's weights and state, essential for running the model.
+1. **Download the `.pth` file**: This file contains the model's weights and state, essential for running the model.
 2. **Upload this file to [Netron](https://netron.app/)**: Netron is an online tool that allows you to view the internal structure of the model. Simply upload the `.pth` file to explore its architecture interactively.
 
 # Acknowledgements
