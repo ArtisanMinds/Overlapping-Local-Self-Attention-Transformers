@@ -1,6 +1,10 @@
+# Enhancing Geotechnical Analysis with Deep Learning
+
+Welcome to our project repository! Here, we are dedicated to pushing the boundaries of geotechnical research by applying advanced deep learning techniques. Our goal is to make the code and models available to the community to foster improved applications of deep learning in geotechnical engineering and to inspire further research in this vital field.
+
 # Overlapping Local Self-Attention Transformers for Spatial Sequential Analysis in CPT Data
 
-This repository contains the code of the Overlapping Local Self-Attention Transformer, specifically designed to enhance spatial sequential analysis and reliability assessment in Cone Penetration Test (CPT) data. Our model leverages a novel approach to self-attention mechanisms, focusing on local sequence relationships, providing significant improvements over traditional global self-attention transformers in processing CPT-like data. Run.py wait until it is fully published before uploading
+This repository hosts the Overlapping Local Self-Attention Transformer, crafted to boost spatial sequential analysis and reliability assessment in Cone Penetration Test (CPT) data. Our model introduces a unique take on self-attention mechanisms by emphasizing local sequence relationships, which offers a substantial enhancement over traditional global self-attention transformers for CPT-like data scenarios. Please note that the run.py file will be uploaded once the model is fully published.
 
 ## Acknowledgements
 
@@ -13,3 +17,9 @@ The dataset used in this project originates from the Cone Penetration Test datas
 ### How to Access
 
 Details on accessing the dataset, please refer to the [Cone penetration test dataset Premstaller Geotechnik](https://doi.org/10.1016/j.dib.2020.106618) for more information.
+
+# Visualizing the Model Architecture
+To see a clear visualization of the model's architecture:
+
+Download the .pth file, which contains the model's weights and state.
+Upload this file to [Netron](https://netron.app/) to view the internal structure of the model.
