@@ -14,7 +14,7 @@ To see a clear visualization of the model's architecture:
 
 For a detailed illustration of the specific model architecture, refer to the provided architecture diagram: 
 
-![Model Architecture](architecture.pdf)
+![Model Architecture](architecture.jpg)
 
 This diagram provides a visual representation of the various layers, connections, and components comprising the model, facilitating a deeper comprehension of its inner workings.
 
